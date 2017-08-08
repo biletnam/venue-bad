@@ -1,0 +1,400 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+}
+
+a, a:active, a:visited, .link, .link * {
+    color: #00697C;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+form .form-row {
+    padding: 3px;
+}
+
+form .form-row:nth-child(even) {
+    background-color: #e5e5e5;
+}
+
+#navigation {
+    margin: 0;
+    padding: 4px;
+    background-color: #330000;
+    display: block;
+    font-size: .9em;
+}
+
+#navigation br {
+    display: block;
+    width: 100%;
+    height: 2px;
+    clear: both;
+    content: "<span></span>";
+    overflow: hidden;
+    background-color: #919191;
+    margin: 4px 0;
+}
+
+#navigation .seperator {
+    width: 1px;
+    height: 1em;
+    background-color: rgb(148, 148, 148);
+    margin: 5px;
+    display: inline-block;
+    top: 7px;
+    position: relative;
+}
+
+#navigation .row_2 {
+    min-height: 3em;
+    display: block;
+    font-size: .8em;
+}
+
+#navigation div {
+    display: inline-block;
+}
+
+#navigation div.butt_wrapper {
+    position: relative;
+    top: -2px;
+}
+
+#navigation #show_picker select {
+}
+
+#navigation #notices-callout {
+    float: right;
+}
+
+.notice-list-unacknowledged {
+    list-style: none;
+    margin: 0;
+    padding: 5px;
+}
+
+.notice-list-unacknowledged li {
+    margin-bottom: 2em;
+}
+
+.notice-list-unacknowledged .date {
+    font-size: 1.3em;
+}
+
+.notice-list-unacknowledged .message {
+}
+
+.notice-list-unacknowledged li button.acknowledge .ui-button-text {
+    padding-right: 0;
+    width: 0;
+}
+
+#content-body {
+    overflow: hidden;
+    width: 50%;
+    float: left;
+}
+
+#user_picker input {
+    font-size: 1.2em;
+    padding: 4px;
+}
+
+#show_picker select, #class-picker select, #class-category-picker select {
+    font-size: 1.2em;
+    width: 200px;
+    padding: 0 10px;
+}
+
+.highlight {
+    background-color: rgb(0, 252, 64);
+}
+
+.package.inactive {
+    text-decoration: line-through;
+    color: #666666;
+}
+
+.transaction-results.voided {
+    background-color: rgb(247, 255, 14);
+    padding: 5px;
+}
+
+.results ul {
+    padding: 0;
+    list-style: none;
+}
+
+.results ul li {
+    display: block;
+    margin: 2px;
+    padding: 10px;
+    background-color: #e5e5e5;
+}
+
+div.form-row > label:first-of-type {
+    width: 210px;
+}
+
+br.clear {
+    clear: both;
+}
+
+.ui-dialog-buttonset button {
+    font-size: .8em;
+}
+
+.ui-dialog .ui-dialog-title {
+    margin: .1em .3em;
+}
+
+.ui-dialog {
+    font-size: 1em;
+}
+
+button.ui-button.ui-state-active.ui-widget {
+    font-weight: bold;
+}
+
+.results ul li:nth-child(even) {
+    background-color: #eeeeee;
+}
+
+.results ul.sub {
+    padding-left: 20px;
+}
+
+.list-right {
+    background-color: #05B2D2;
+    width: 300px;
+    float: right;
+    z-index: 2;
+}
+
+.list-right h3 {
+    padding: 0 10px;
+    text-align: center;
+}
+
+.list-right ul {
+    list-style: none;
+    margin: 0;
+    padding: 5px;
+}
+
+.list-right {
+    overflow-y: scroll;
+}
+
+.list-right li.reservation {
+    width: 99%;
+    margin-bottom: 3px;
+}
+
+.list-right li.ui-button {
+    text-align: left;
+}
+
+.toast {
+    position: absolute;
+    width: 300px;
+    padding: 4px;
+    text-align: center;
+}
+
+.edu, .edu.ui-state-default {
+    color: #BB3333;
+}
+
+.purse, .purse.ui-state-default {
+    color: #0FA626;
+}
+
+.webadmin, .webadmin.ui-state-default {
+    color: #1DDAAD;
+}
+
+.office, .office.ui-state-default {
+    color: #D427DF;
+}
+
+#seating-chart {
+    position: relative;
+}
+
+#seating-chart img {
+    position: absolute;
+}
+
+.assign-worker-dialog div.form-row label {
+    width: 100px;
+}
+
+#willcall-list .workers li.worker button .ui-button-text {
+    padding-right: 0;
+    width: 0;
+}
+
+#edu {
+    overflow-y: scroll;
+}
+
+#edu .new {
+    font-size: 2em;
+    margin: 5px;
+    padding: 3px;
+}
+
+#edu span.transaction-details {
+    font-size: .9em;
+    color: #666666;
+}
+
+#purse {
+    overflow-y: scroll;
+}
+
+#packages-list li span {
+    font-size: .9em;
+}
+
+#packages-list li span.title {
+    font-size: 1.2em;
+    display: block;
+}
+
+#packages-list li span.add {
+    display: block;
+}
+
+#giftcard-creation-from #method_data {
+    width: 400px;
+    height: 150px;
+}
+
+.line-cost {
+    color: rgb(198, 32, 32);
+    font-weight: bold;
+}
+
+.guage_array {
+    display: inline-block;
+    margin: 5px 5px 5px 5px;
+    padding: 4px;
+    background-color: #E3E3E3;
+}
+
+.guage_array:hover {
+    background-color: rgb(100, 255, 110);
+    cursor: pointer;
+}
+
+.guage_array h2 {
+    margin: .5em 0 .2em 0;
+    font-size: 12pt;
+}
+
+.guage_array > div {
+    display: inline-block;
+}
+
+.guage_array > div.percent-75 {
+    background-color: rgb(220, 220, 0);
+}
+
+.guage_array > div.percent-90 {
+    background-color: rgb(241, 86, 86);
+}
+
+.guage_array > div.past {
+    background-color: rgb(169, 169, 169);
+}
+
+.guage_array div div {
+    text-align: center;
+}
+
+#web {
+    overflow-y: scroll;
+}
+
+#web .web-shows-list .date {
+    font-size: .9em;
+    display: inline-block;
+}
+
+#web .web-shows-list .title {
+    display: inline-block;
+    width: 250px;
+}
+
+#willcall-area .show-people-list li button.person-minus-button .ui-button-text {
+    padding-right: 0;
+    width: 0;
+}
+
+#web .show-editor {
+    width: 70%;
+    float: right;
+}
+
+#web .instances {
+    width: 28%;
+    float: left;
+}
+
+#web .instances #new_datetime {
+    width: 14em;
+}
+
+#web .instances li button .ui-button-text {
+    padding-right: 0;
+    width: 0;
+}
+
+#web #web-prop-list fieldset {
+    margin: 1em 1em 2em 1em;
+}
+
+#web #web-prop-list legend {
+    font-size: 1.5em;
+}
+
+#web #webadmin-show-image-upload {
+    width: 15em;
+    float: left;
+}
+
+#web #webadmin-show-image-upload select {
+    width: 12em;
+    font-size: 1em;
+}
+
+#web .show-images .show-image {
+    display: inline-block;
+    margin: 5px;
+    width: 155px;
+}
+
+#web .show-images img {
+    max-width: 150px;
+}
+
+#web .show-image button.delete {
+    z-index: 2;
+}
+
+#web .show-image button.delete .ui-button-text {
+    padding-right: 0;
+    width: 0;
+}
+
+#web .show-image img.image {
+    top: -30px;
+    position: relative;
+    left: 5px;
+}
+

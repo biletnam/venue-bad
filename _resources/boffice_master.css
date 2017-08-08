@@ -1,0 +1,251 @@
+/*
+    Master styles
+*/
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+section#user-navigation {
+    background-color: darkkhaki;
+    padding: 5px 20px;
+    border-bottom-style: dashed;
+}
+
+#outer-wrapper {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*=== Reusable UI ===*/
+.overlay-block {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(250, 250, 250, 0.6);
+    z-index: 99;
+}
+
+.overlay-block .message {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+}
+
+/*=== menu ===*/
+navigation > ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+navigation > ul li {
+    float: left;
+    width: 160px;
+    position: relative;
+}
+
+navigation > ul li a {
+    background: #333;
+    color: #fff;
+    display: block;
+    padding: 7px 8px;
+    text-decoration: none;
+    border-top: 1px solid #069;
+}
+
+navigation > ul li a:hover {
+    color: #069;
+}
+
+/*=== submenu ===*/
+navigation > ul ul {
+    display: none;
+    position: absolute;
+    margin-left: 0px;
+    list-style: none;
+    padding: 0px;
+}
+
+navigation > ul ul li {
+    width: 160px;
+    float: left;
+}
+
+navigation > ul ul a {
+    display: block;
+    height: 15px;
+    padding: 7px 8px;
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px solid #222;
+}
+
+navigation > ul ul li a:hover {
+    color: #069;
+}
+
+header {
+    display: block;
+    clear: both;
+}
+
+footer {
+    display: block;
+    clear: both;
+    margin-top: 2em;
+    padding: 5px 10px;
+    background-color: darkkhaki;
+}
+
+.link {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.show-title {
+    font-style: italic;
+}
+
+/*
+    Form Styles
+*/
+label {
+    font-size: .9em;
+}
+
+.form-row {
+    margin: .5em;
+    padding: .2em;
+    background-color: rgb(248, 248, 248);
+    background-color: rgba(0, 0, 0, .05);
+}
+
+.form-row label:first-of-type {
+    width: 150px;
+    display: inline-block;
+}
+
+.form-row .label-fill {
+    width: 155px;
+    font-size: .9em;
+    display: inline-block;
+}
+
+.form-row input, .form-row select, .form-row textarea {
+    padding: .1em;
+    font-size: 1.2em;
+    width: 18em;
+}
+
+.long-labels .form-row label, label.long-labels, .form-row.long-labels label {
+    width: 500px;
+}
+
+.medium-labels .form-row label, label.medium-labels, .form-row.medium-labels label {
+    width: 300px;
+}
+
+.invalid {
+    border: red solid 1px;
+}
+
+/** CLASSES THINGS **/
+.purchasable-registration.display.summary img {
+    float: left;
+    margin-right: 2em;
+    width: 300px;
+}
+
+.purchasable-registration.display.summary {
+    clear: both;
+}
+
+/** CHECKTOUT Things **/
+.cart-row label {
+    width: 90px;
+    float: left;
+}
+
+.line-cost {
+    color: rgb(198, 32, 32);
+    font-weight: bold;
+}
+
+.checkout-form {
+    margin: 2em;
+}
+
+.card-image img {
+    height: 1.8em;
+    position: relative;
+    margin-left: 3px;
+    top: .5em;
+}
+
+.cart-contents form button.ui-button .ui-button-text {
+    font-size: 0.7em;
+    padding: .2em .5em .3em 2.2em;
+}
+
+.cart-contents form button.ui-button {
+    margin-top: -.3em;
+    margin-left: .5em;
+}
+
+.cart-contents form {
+    margin-top: .4em;
+}
+
+/** Profile Things **/
+.user {
+}
+
+.user .headshot {
+    max-width: 30%;
+    float: left;
+}
+
+.user .meta {
+    width: 68%;
+    float: right;
+}
+
+.user .name {
+    font-size: 2em;
+    padding-bottom: 1em;
+}
+
+.user .bio {
+    line-height: 1.5em;
+}
+
+.user .user-roles {
+    margin: 0;
+    padding: 20px;
+    list-style: none;
+}
+
+.user .user-roles li {
+    padding: 5px;
+}
+
+/** Accessibility Things **/
+.not-visible {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+

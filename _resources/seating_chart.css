@@ -1,0 +1,29 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 28, 2014, 3:14:13 PM
+    Author     : lepercon
+*/
+
+#seating-chart {
+    position: relative;
+}
+
+#seating-chart img.object {
+    position: absolute;
+}
+
+#seating-chart-selections {
+    list-style: none;
+    padding: 0;
+}
+
+#seating-chart-selections li {
+    border: 1px solid black;
+    padding: 5px;
+    margin: 2px;
+    background-color: #EDEDED;
+}

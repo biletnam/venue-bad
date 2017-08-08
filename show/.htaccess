@@ -1,0 +1,4 @@
+Options +FollowSymLinks
+
+RewriteEngine on
+RewriteRule ^(.*)[\?](.*)|^(.*) ../boffice_show.php?p=$3$1&$2
